@@ -63,6 +63,13 @@ body {
     font-weight: 500;
 }
 
+.leftNavMenu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+
 /* SUBSCRIBE BUTTON */
 .subscribe-btn {
     background: #d60000;
@@ -143,4 +150,4 @@ blockquote {
     border-top: 1px solid #ddd;
     color: #555;
 }
-/* useless */
+
