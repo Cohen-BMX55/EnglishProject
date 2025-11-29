@@ -15,6 +15,55 @@ body {
     border-bottom: 1px solid #ddd;
 }
 
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 25px;
+    background: #1d3557;
+    color: #fff;
+}
+
+.hamburger, .search-btn, .login-btn, .subscribe-btn {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.center-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.logo {
+    font-size: 30px;
+}
+
+.sitename {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.subscribe-btn {
+    padding: 6px 12px;
+    background: #e63946;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.login-btn {
+    padding: 6px 12px;
+    background: #457b9d;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
 .logo {
     font-size: 30px;
     margin-right: 15px;
