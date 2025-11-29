@@ -1,9 +1,110 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
     <title>The Northline Journal</title>
+
+    <style>
+        body {
+            font-family: Georgia, serif;
+            background: #f5f4f2;
+            margin: 0;
+            color: #222;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px 25px;
+            background: #1d3557;
+            color: #fff;
+        }
+
+        .hamburger, .search-btn, .login-btn, .subscribe-btn {
+            background: none;
+            border: none;
+            color: #fff;
+            font-size: 20px;
+            cursor: pointer;
+            margin: 0 10px;
+        }
+
+        .center-logo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex: 1;
+        }
+
+        .logo {
+            font-size: 30px;
+        }
+
+        .sitename {
+            font-size: 24px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .title {
+            font-size: 40px;
+            margin-bottom: 10px;
+            line-height: 1.1;
+        }
+
+        .author {
+            color: #777;
+            font-size: 15px;
+            margin-bottom: 25px;
+        }
+
+        .hero-image, .inline-image {
+            width: 100%;
+            margin: 30px 0;
+        }
+
+        .content {
+            font-size: 19px;
+            line-height: 1.65;
+            margin-bottom: 25px;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 25px 0;
+            margin-top: 60px;
+            font-size: 14px;
+            color: #555;
+            border-top: 1px solid #ccc;
+        }
+    .subheading {
+            font-family: 'Times New Roman', serif;
+            font-size: 26px;
+            font-weight: 600;
+            color: #1d3557;
+            margin-top: 40px;
+            margin-bottom: 10px;
+            border-left: 4px solid #457b9d;
+            padding-left: 10px;
+        }
+
+        .content {
+            font-family: 'Merriweather', Georgia, serif;
+            font-size: 19px;
+            line-height: 1.75;
+            margin-bottom: 25px;
+            white-space: normal;
+            word-wrap: break-word;
+        }
+</style>
 </head>
 <body>
     <header class="header">
@@ -21,29 +122,90 @@
 
     <main class="container">
         <article class="post">
-            <h1 class="title">When the Past Won’t Stay Buried: The Story of Hae Min Lee and the Questions That Survive It</h1>
-            <p class="author">By Cohen B · November 27, 2025</p>
+          <h1 class="title">When the Past Won’t Stay Buried: The Story of Hae Min Lee and the Questions That Survive It</h1>
+          <p class="author">By Cohen B · November 27, 2025</p>
 
-            <img src="img/picture1.jpg" alt="Article Image" class="hero-image" />
+          <img src="img/picture1.jpg" alt="Article Image" class="hero-image" />
 
-            <p class="content">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec pulvinar massa...
-            </p>
+          
+          <h2 class="subheading">The echoes of a case: Revisiting the Hae Min Lee case two decades Later </h2>
+          <p class="content">
+                A cold January afternoon in Baltimore in 1999 should have been uneventful, another regular school day in the history books, but instead something happened that would change the lives of several Woodlawn high students forever. It would become a day that was discussed, argued, and talked about for decades after, long after anyone would expect to be talking about cell towers, alibis, or the reliability of teenage memory. The murder of 18-year-old Hae Min Lee has become one of Americas most thoroughly examined cases, not because the evidence is simple, but because every time someone new tries to come to a conclusion, a new loose end pops up, or a new witness comes forward, reopening the case for further investigation. 
+          </p>
 
-            <p class="content">
-                Cras aliquet, ipsum non aliquam malesuada, augue elit fringilla enim, sed accumsan...
-            </p>
+          <h2 class="subheading">A disappearance, a kidnapping, and a timeline that no one can agree on </h2>
+          <p class="content">
+                Hae Min Lee disappeared on January 13, 1999, after leaving Woodlawn high school around 2:30. Nearly four weeks go by, and then her body is found buried haphazardly in Leakin Park; A place with more murder cases to its name than I can count on my fingers. An anonymous tip to the police sets the investigators sights on Adnan Syed, Hae’s classmate and ex-Boyfriend who had broken up with her just a few weeks prior. What follows is a series of interviews in which nothing is adding up. Adnan cant remember where he was, and no one else is coming forward to give him a alibi. 
+          </p>
+          <p><i>Map Here</i></p>
+          <p class="content">
+                The timeline of January has always been the center of the debate surrounding this case. In theory it should have been shut and dry; who saw whom, where and when. Instead, it is a mess of conflicting testimonies and constant contradictions. No one can agree on anything, and what should have been an open and shut case turned into a mess of a story that no one can make sense of. 
+          </p>
 
-            <img src="placeholder-image-2.jpg" alt="Inline Image" class="inline-image" />
+          <h2 class="subheading">The cornerstone of the case: the call log </h2>
+          <p class="content">
+                Not one piece of evidence comes close to being as thoroughly examined as the call log subpoenaed from Adnan Syeds cell phone by the police. A single printed sheet from 1999 that generations of internet detectives and professional lawyers alike have picked clean to try and figure out some semblance of a answer. It contains calls to friends, pocket dials, incoming calls, and the infamous late afternoon calls which the prosecutors used to support their argument. People later argued that the incoming call tower data was unreliable for location, citing a A T & T fax statement with a disclaimer that said, “Any incoming calls will NOT be reliable information for location.”. 
+          </p>
+          <p><i>Call log and A t and t fax statment here</i></p>
+          <p class="content">
+                Every call in that log inspired a different theory into what could have happened that day. A 2:36 call prosecutors said aligned with the murder window; a 3:21 call that started arguments about whether Adnan could have even been at Best Buy, and the “Nisha call” that could have been a pocket dial. The call log became a key player in both sides of the debate, whether you were for Adnan or against him. 
+          </p>
 
-            <p class="content">
-                Suspendisse potenti. Curabitur ultricies, justo eu fermentum tempus, turpis sem...
-            </p>
+          <h2 class="subheading">Memory on the Stand: A story that was never told the same twice </h2>
+          <p class="content">
+                The most significant testimony came from Jay Wilds, who claimed to be Syeds accomplice in moving and burying the body. His interview timelines changed in many noteworthy ways; where he claimed the car was, the times these events went down, and the most notable of all, where Syed showed him the body. He changed that part of the story more than three times in different interviews and testimonies. These shifts became a big divide to observers. Supporters of Adnan said that the inconsistencies were too big to ignore, while people who agreed with the original conviction argued that the pressure of the case was causing him to misremember. 
+          </p>
+          <p><i>Who what when sheet? Maybe somthing else idk </i></p>
+          <p class="content">
+                No matter which side of the case you are on, the result is the same; a case surrounded in fog, where subjective memories, uncertain testimonies, and not enough physical evidence making everyone’s head spin like a merry go round. Jay’s testimony was supposed to be the final nail in the coffin for the case against Adnan, instead it was a stick of dynamite that blew it all wide open again. 
+          </p>
+
+          <h2 class="subheading">Legal Whiplash and a Case that refuses to stay quiet </h2>
+          <p class="content">
+                For more than twenty years, the case moved back and forth like a game of tug-of-war. Appeals were filed and then subsequently denied. Evidence was reexamined. Call logs were combed through. In 2022 a judge ruled that the conviction should be vacated when prosecutors raised new concerns about new suspects and evidence that wasnt available at the time of trial. More legal battles soon followed, leaving no one satisfied with the results. It just seemed like the battle would never end, appeal after appeal. The legal system isn’t normally this back and forth, but this case was different. 
+          </p>
+          <p><i>Serial podcast... maybe ep 1 or just link to website/screenshots </i></p>
+          <p class="content">
+                The cultural side of the case was an even bigger battleground. The Serial podcast released in 2014 went viral and brought the case back into the public spotlight. Suddenly people all around the world had a say in what the outcome should be, whether Jay’s testimony was credible, and whether Adnan could be trusted. Bloggers wrote essay that were thesis worthy, Reddit threads longer than you could scroll, lawyers giving their professional opinion, Skeptics countering the lawyers. A once local case was turned into a public investigation. 
+          </p>
+
+          <h2 class="subheading">The present day </h2>
+          <p class="content">
+                Adnan Syed is no longer legally imprisoned, however the mystery is far from over. Hae Min Lee’s family has repeatedly expressed their negative feelings towards their loss constantly being picked apart, old wounds being reopened; a reminder that beneath all the theories and stories, is a human tragedy that was turned into a cultural spectacle for the mainstream media. The case’s legacy live on today as a unsatisfied mystery turned cultural phenomenon.  
+          </p>
+          <p class="content">
+                The deeper truth is that some cases can never be truly closed. Sometimes there will be some semblance of a conclusion, but due to lack of physical evidence we will never know the objective truth, only going off of witness testimonies and foggy memories. This case has become an example of what happens when a case goes viral, and everyone and their dog wants to find the answer, forgetting about the human feelings and the gravity of the situation while caught up in the moment. 
+          </p>
+          <p class="content">
+                In the end, what's done is done. Adnan served his time in jail, and Hae isn't coming back any time soon. What's left is a pile of documents, theories both true and false, and a grieving family knowing they will never find true closure, instead being poked and prodded by internet sleuths who won't give it a rest, wanting to be the ones to make the big breakthrough that's never coming. And as long as there are unanswered questions, they will not rest, diving back in every time a new voice, a new document, or a new theory enters the light. 
+          </p><br><br>
+
+          <p class="Quote">“The truth is rarely pure and never simple.” </p><br>
+          <p class="QuoteName">-Oscar Wilde</p>
+
+
         </article>
     </main>
 
     <footer class="footer">
         <p>© 2025 The Northline Journal — All rights reserved.</p>
+            <p>Contact · Privacy Policy · Ethics Statement · Archives</p>
+        <p>Made with too much coffee and not enough sleep.</p>
+    </footer>
+
+    <script>
+        document.querySelector('.hamburger').onclick = () => console.log('Hamburger menu clicked');
+        document.querySelector('.search-btn').onclick = () => console.log('Search clicked');
+        document.querySelector('.login-btn').onclick = () => console.log('Login clicked');
+        document.querySelector('.subscribe-btn').onclick = () => console.log('Subscribe clicked');
+    </script>
+</body>
+</html>
+
+    <footer class="footer">
+        <p>© 2025 The Northline Journal — All rights reserved.</p>
+            <p>Contact · Privacy Policy · Ethics Statement · Archives</p>
+        <p>Made with too much coffee and not enough sleep.</p>
     </footer>
 
     <script>
