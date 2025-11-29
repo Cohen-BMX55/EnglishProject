@@ -1,15 +1,22 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>The Northline Journal</title>
 </head>
 <body>
     <header class="header">
-        <div class="logo">🜁</div>
-        <div class="sitename">The Northline Journal</div>
+        <button class="hamburger">☰</button>
+        <button class="search-btn">🔍</button>
+
+        <div class="center-logo">
+            <div class="logo">🜁</div>
+            <div class="sitename">The Northline Journal</div>
+        </div>
+
+        <button class="login-btn">Log In</button>
+        <button class="subscribe-btn">Subscribe</button>
     </header>
 
     <main class="container">
@@ -39,8 +46,11 @@
         <p>© 2025 The Northline Journal — All rights reserved.</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script>
+        document.querySelector('.hamburger').onclick = () => console.log('Hamburger menu clicked');
+        document.querySelector('.search-btn').onclick = () => console.log('Search clicked');
+        document.querySelector('.login-btn').onclick = () => console.log('Login clicked');
+        document.querySelector('.subscribe-btn').onclick = () => console.log('Subscribe clicked');
+    </script>
 </body>
-</html>
-
 </html>
