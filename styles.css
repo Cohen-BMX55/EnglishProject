@@ -1,147 +1,70 @@
-/* ---------------------------
-   Base Reset
----------------------------- */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/* Basic newspaper-style look inspired by The Atlantic / Globe and Mail */
 
-/* ---------------------------
-   Body & Typography
----------------------------- */
 body {
-    font-family: "Georgia", serif;
-    background: #faf9f7;
-    color: #2b2b2b;
-    line-height: 1.75;
+    font-family: Georgia, serif;
+    background: #f5f4f2;
+    margin: 0;
+    color: #222;
 }
 
-/* ---------------------------
-   Header
----------------------------- */
 .header {
-    background: white;
-    border-bottom: 1px solid #dcdcdc;
-    text-align: center;
-    padding: 25px 20px;
+    display: flex;
+    align-items: center;
+    padding: 20px 40px;
+    background: #ffffff;
+    border-bottom: 1px solid #ddd;
 }
 
-.masthead .paper-name {
-    display: block;
-    font-family: "Times New Roman", serif;
-    font-size: 32px;
-    font-weight: 700;
-    letter-spacing: 1.5px;
+.logo {
+    font-size: 30px;
+    margin-right: 15px;
 }
 
-.masthead .tagline {
-    font-size: 14px;
-    color: #666;
-    margin-top: 4px;
+.sitename {
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
 
-.nav {
-    margin-top: 18px;
-}
-
-.nav a {
-    color: #333;
-    text-decoration: none;
-    margin: 0 12px;
-    font-size: 15px;
-    font-weight: 500;
-    letter-spacing: 0.3px;
-}
-
-.nav a:hover {
-    color: #b30000;
-}
-
-/* ---------------------------
-   Hero Section
----------------------------- */
-.hero {
-    position: relative;
-}
-
-.hero img {
-    width: 100%;
-    display: block;
-    max-height: 550px;
-    object-fit: cover;
-    filter: brightness(75%);
-}
-
-.hero-overlay {
-    position: absolute;
-    bottom: 40px;
-    left: 40px;
-    color: white;
-    max-width: 700px;
-}
-
-.hero-overlay h1 {
-    font-size: 46px;
-    line-height: 1.2;
-    margin-bottom: 10px;
-}
-
-.hero-meta {
-    font-size: 16px;
-    opacity: 0.9;
-}
-
-/* ---------------------------
-   Main Content
----------------------------- */
-.content {
+.container {
     max-width: 800px;
-    margin: 50px auto;
+    margin: 40px auto;
     padding: 0 20px;
 }
 
-.content p {
-    margin-bottom: 22px;
-    font-size: 20px;
-    color: #333;
+.title {
+    font-size: 40px;
+    margin-bottom: 10px;
+    line-height: 1.1;
 }
 
-blockquote {
-    border-left: 4px solid #b30000;
+.author {
+    color: #777;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.hero-image {
+    width: 100%;
+    margin: 25px 0;
+}
+
+.inline-image {
+    width: 100%;
     margin: 30px 0;
-    padding-left: 20px;
-    font-style: italic;
-    color: #555;
-    font-size: 22px;
 }
 
-/* ---------------------------
-   Button
----------------------------- */
-#highlightBtn {
-    padding: 12px 22px;
-    font-size: 16px;
-    background: #b30000;
-    border: none;
-    color: white;
-    cursor: pointer;
-    border-radius: 4px;
-    margin-top: 20px;
+.content {
+    font-size: 19px;
+    line-height: 1.65;
+    margin-bottom: 25px;
 }
 
-#highlightBtn:hover {
-    background: #8a0000;
-}
-
-/* ---------------------------
-   Footer
----------------------------- */
 .footer {
     text-align: center;
-    padding: 30px;
-    background: #f1f1f1;
-    color: #555;
-    font-size: 14px;
+    padding: 25px 0;
     margin-top: 60px;
+    font-size: 14px;
+    color: #555;
+    border-top: 1px solid #ccc;
 }

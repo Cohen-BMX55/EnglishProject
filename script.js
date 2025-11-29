@@ -1,11 +1,4 @@
-document.getElementById("highlightBtn").addEventListener("click", () => {
-    const paragraphs = document.querySelectorAll(".article p");
+// Placeholder JavaScript file
+// None of the buttons or actions need to work, but this file is ready for any future features.
 
-    paragraphs.forEach((p, index) => {
-        if (index === 1 || index === 3) {
-            p.style.backgroundColor = "#fff3cd";
-            p.style.padding = "8px 12px";
-            p.style.borderRadius = "4px";
-        }
-    });
-});
+console.log("News site loaded.");
